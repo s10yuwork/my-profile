@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自己紹介 | Yusuke</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="logo">Yusuke</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#career">Career</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- プロフィールカード (Day21ベース・中央配置仕様) -->
+    <div class="profile-card" id="about">
+      <img src="images/profile.jpg" alt="yusukeのプロフィール写真" class="profile-card__img">
+      <h2 class="card-name">yusuke</h2>
+      <p class="card-title">SE / BPR・AI活用推進</p>
+      <p class="card-desc">
+        ITエンジニア経験と海外拠点での業務改善支援を経て、現場の効率化やAIツール活用を推進しています。
+      </p>
+    </div>
+
+    <!-- 趣味セクション -->
+    <section class="section" id="hobbies">
+      <h2 class="section-title">Hobbies & Interests</h2>
+      <ul class="hobby-list">
+        <li><strong>海外渡航・ノマド生活：</strong> 東南アジア各地での生活と文化交流</li>
+        <li><strong>フィットネス & 美容：</strong> トレーニング、姿勢改善、スキンケア習慣</li>
+        <li><strong>サウナ：</strong> 心身のリフレッシュと習慣化</li>
+      </ul>
+    </section>
+
+    <!-- 経歴セクション -->
+    <section class="section" id="career">
+      <h2 class="section-title">Career Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-period">大学</span>
+          <p>教育学部卒業。教員免許取得。</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-period">IT企業</span>
+          <p>SEとして現場案件の進捗管理・Web/システム開発を担当。</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-period">海外滞在</span>
+          <p>タイにて社員教育・業務マニュアル整備、セブ島にてSNS運用を担当。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 2: できること (見出し＋カード3枚＋NEWバッジ) -->
+    <section class="skills" id="skills">
+      <h2 class="skills__title">できること</h2>
+      <div class="cards">
+        <article class="card">
+          <span class="card__badge">NEW</span>
+          <h3 class="card__title">AI活用・効率化</h3>
+          <p class="card__text">ChatGPT・Claude・Gemini 等を活用した業務プロセスの構築と自動化</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">コーディング・Web</h3>
+          <p class="card__text">HTML/CSSによるLP実装やUI構造化、Web基礎開発</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">業務改善・教育</h3>
+          <p class="card__text">オペレーション可視化、マニュアル整備、社内レクチャー推進</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 課題後半: LPセクション (見出し＋カード3枚＋CTAボタン) -->
+    <section class="cta" id="cta">
+      <h2 class="cta__title">一緒に学びませんか？</h2>
+      <div class="cards">
+        <article class="card">
+          <h3 class="card__title">HTML / CSS</h3>
+          <p class="card__text">デザインをコードにしてスマホ対応させる</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">業務自動化</h3>
+          <p class="card__text">日常業務の手間をなくす仕組みをつくる</p>
+        </article>
+        <article class="card">
+          <h3 class="card__title">AIツール実践</h3>
+          <p class="card__text">プロンプト設計と現場導入のノウハウを習得</p>
+        </article>
+      </div>
+      <a href="#skills" class="btn">無料相談してみる</a>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <small>&copy; 2026 Yusuke. All rights reserved.</small>
+  </footer>
+
+</body>
+</html>
